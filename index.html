@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Privileged app</title>
+    <meta name="description" content="A privileged app stub">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="bower_components/base/base.css">
+    <script src="bower_components/gaia-component/gaia-component.js"></script>
+    <script src="bower_components/drag/drag.js"></script>
+    <script src="bower_components/gaia-switch/gaia-switch.js"></script>
+    <script src="bower_components/gaia-list/gaia-list.js"></script>
+
+    <link rel="stylesheet" href="css/app.css">
+    <script type="text/javascript" src="js/app.js" defer></script>
+    <link rel="prefetch" type="application/l10n" href="data/locales.ini" />
+    <script type="text/javascript" src="js/libs/l10n.js" defer></script>
+</head>
+<body>
+  <gaia-list>
+    <li>
+        <h1 data-l10n-id="app_title">Storage Manager</h1>
+    </li>
+    <li>
+        <p id="message" data-l10n-id="message"></p>
+    </li>
+    <li>
+        <label data-l10n-id="cs_switch" flex></label>
+        <gaia-switch id="cs_switch"></gaia-switch>
+    </li>
+  </gaia-list>
+</body>
+</html>
