@@ -1,0 +1,12 @@
+{
+    "name": "storage manager",
+    "version": "1.0.0",
+    "dependencies": {
+        "gaia-list": "gaia-components/gaia-list",
+        "gaia-theme": "gaia-components/gaia-theme",
+        "gaia-icons": "gaia-components/gaia-icons",
+        "gaia-tabs": "gaia-components/gaia-tabs",
+        "gaia-header": "gaia-components/gaia-header",
+        "gaia-switch": "gaia-components/gaia-switch"
+    }
+}
