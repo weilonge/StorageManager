@@ -16,7 +16,7 @@ window.addEventListener('DOMContentLoaded', function() {
   }
 
   var csSwitch = document.getElementById('cs_switch');
-  csSwitch.addEventListener('click', function (){
+  csSwitch.addEventListener('change', function (){
     var state = csSwitch.checked;
     if(state){
       console.log('========= Enable CloudStorage');
