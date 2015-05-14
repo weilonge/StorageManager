@@ -9,6 +9,7 @@
     "60": "/img/icons/icon60x60.png",
     "128": "/img/icons/icon128x128.png"
   },
+  "orientation": [ "landscape-primary" ],
   "developer": {
     "name": "Gaia Team"
   },
