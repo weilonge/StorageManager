@@ -16,3 +16,25 @@ p {
   font-size: 2rem;
 }
 
+#oauth_window {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.sup-oauth2-browser {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.scrollregion-below-header {
+  overflow: hidden;
+  will-change: auto;
+  height: 100%;
+  width: 100%;
+}
+

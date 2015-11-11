@@ -13,6 +13,7 @@
     <script src="bower_components/drag/drag.js"></script>
     <script src="bower_components/gaia-switch/gaia-switch.js"></script>
     <script src="bower_components/gaia-list/gaia-list.js"></script>
+    <script src="bower_components/gaia-button/gaia-button.js"></script>
 
     <link rel="stylesheet" href="css/app.css">
     <script type="text/javascript" src="js/app.js" defer></script>
@@ -20,7 +21,7 @@
     <script type="text/javascript" src="js/libs/l10n.js" defer></script>
 </head>
 <body>
-  <gaia-list>
+  <gaia-list id="main_list">
     <li>
         <h1 data-l10n-id="app_title">Storage Manager</h1>
     </li>
@@ -31,6 +32,10 @@
         <label data-l10n-id="cs_switch" flex></label>
         <gaia-switch id="cs_switch"></gaia-switch>
     </li>
+    <li>
+        <gaia-button id="dropbox_login">Dropbox Login</gaia-button>
+    </li>
   </gaia-list>
+  <div class="scrollregion-below-header" id="oauth_window"></div>
 </body>
 </html>

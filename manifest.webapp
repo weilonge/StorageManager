@@ -14,7 +14,9 @@
     "name": "Gaia Team"
   },
   "type": "certified",
-  "permissions": {},
+  "permissions": {
+    "browser": {}
+  },
   "installs_allowed_from": [
     "*"
   ],
